@@ -7,3 +7,4 @@ future-app/.npm-tmp
 future-app/tsconfig.tsbuildinfo
 *.log
 *.zip
+.netlify
