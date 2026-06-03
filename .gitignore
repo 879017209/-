@@ -1,0 +1,9 @@
+.npm-cache-app
+future-app/node_modules
+future-app/.next
+future-app/.next-*
+future-app/.npm-cache
+future-app/.npm-tmp
+future-app/tsconfig.tsbuildinfo
+*.log
+*.zip
