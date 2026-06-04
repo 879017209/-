@@ -8,3 +8,5 @@ future-app/tsconfig.tsbuildinfo
 *.log
 *.zip
 .netlify
+.chrome-preview-profile*
+homepage-*.png

@@ -40,7 +40,7 @@ a {
 }
 
 .eyebrow {
-  margin: 0 0 8px;
+  margin: -2px 0 12px;
   color: var(--accent);
   font-size: 13px;
   letter-spacing: .16em;
@@ -54,13 +54,13 @@ p {
 }
 
 h1 {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   font-size: clamp(32px, 4vw, 56px);
   line-height: 1;
 }
 
 .summary {
-  max-width: 620px;
+  max-width: 760px;
   margin-bottom: 0;
   color: var(--muted);
   font-size: 16px;
@@ -117,12 +117,22 @@ h1 {
   font-size: 13px;
 }
 
+.previewViewport {
+  height: 620px;
+  overflow: hidden;
+  background: #202225;
+}
+
 .previewCard iframe {
   display: block;
-  width: 100%;
-  min-height: 720px;
+  width: 1500px;
+  height: 1000px;
   border: 0;
   background: #1b1d20;
+  pointer-events: none;
+  transform: scale(.82);
+  transform-origin: top left;
+  user-select: none;
 }
 
 aside.card {
